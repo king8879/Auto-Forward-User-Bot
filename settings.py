@@ -11,9 +11,9 @@ from angel_db import settings_col, admin_col, extra_targets_col
 load_dotenv()
 
 # ================= Configuration =================
-WOODCRAFT_URL = os.getenv("WOODCRAFT_URL")
-NOOR_URL = os.getenv("NOOR_URL")
-DEFAULT_ADMINS = [int(x) for x in os.getenv("DEFAULT_ADMINS", "").split(",") if x.strip()]
+WOODCRAFT_URL = os.getenv("https://i.imgur.com/1ARGsWp.png")
+NOOR_URL = os.getenv("https://i.imgur.com/E5zwKTY.png")
+DEFAULT_ADMINS = [int(x) for x in os.getenv("DEFAULT_ADMINS", "7726207129").split(",") if x.strip()]
 
 # ================== Functions ====================
 async def add_target_channel(chat_id):
