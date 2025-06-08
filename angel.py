@@ -13,11 +13,11 @@ from angel_db import collection
 
 load_dotenv()
 # ===== WOODcraft ==== SudoR2spr ==== #
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-SESSION_STRING = os.getenv("SESSION_STRING")
-STATUS_URL = os.getenv("STATUS_URL")
-SOURCE_CHAT_ID = int(os.getenv("SOURCE_CHAT_ID"))
+API_ID = int(os.getenv("18579024"))
+API_HASH = os.getenv("124981da628d86e21ee492da77cd4037")
+SESSION_STRING = os.getenv("BQFdxx0AQBp7AlI7EvnqtrBAQvr9Hcri4p1TJjzTxqTw2H8ozXMPV2pfK7XM_Ccg1wFKcG9I960diJODWiz3mvj1BKrPBcpHtAxklRJnvxmqj0ySInZeSDvUt7l1SYDt2fs64KukFkdH0otFVb0BbGt_XcC_X68bhlUqslEkX_eyuAqgFCDFr-QPnMNJCovgiHZYMgU3erFt5A9lMxE_QpIVRsIT0uiOQwcw929W02cME_wVrWCTHm8YcsZWiJWqkXGpnx5Rp8YNL1ba2cCO-GlnidkVkmmr_rL2QidC_ZMBKI51EEuInh6nkHMyYzyIjeTKQ-14ErfIiUp8D-b0iNa4U9zw4wAAAAGGq1cFAA")
+STATUS_URL = os.getenv("https://i.imgur.com/1ARGsWp.png")
+SOURCE_CHAT_ID = int(os.getenv("-1002677298480"))
 PORT = int(os.getenv("PORT", 8080))
 # ===== WOODcraft ==== SudoR2spr ==== #
 
